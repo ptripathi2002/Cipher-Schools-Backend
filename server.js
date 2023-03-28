@@ -19,7 +19,7 @@ app.use(bodyParser.json());
 
 app.use(
   cors({
-    origin: ["http://localhost:3000"],
+    origin: ["http://localhost:3000", "https://cipherschools.vercel.app"],
     credentials: true,
   })
 );
